@@ -39,6 +39,7 @@ public class DetailActivity extends AppCompatActivity {
         String[] array = ingr.toArray(new String[0]);
 
 
+
         String ingredientList = "Name:" + label + "\n ingredients:";
 
         for(int i = 0; i < array.length; i++) {
