@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">MobilAdvExamen</string>
+
+
+
+    <string-array name="filters">
+        <item>Filter Cuisine</item>
+        <item>American</item>
+        <item>Asian</item>
+        <item>British</item>
+        <item>Caribbean</item>
+        <item>Central Europe</item>
+        <item>Chinese</item>
+        <item>Eastern Europe</item>
+        <item>French</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kosher</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Nordic</item>
+        <item>South American</item>
+        <item>South East Asian</item>
+    </string-array>
+
 </resources>
