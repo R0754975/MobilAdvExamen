@@ -42,8 +42,11 @@
         android:id="@+id/button_share_detail"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="Share recipe"
-        android:textSize="20sp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Share Recipe"
+        android:textColor="#6ACC00"
+        android:textSize="10dp"
+        android:layout_gravity="center"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="30dp" />
