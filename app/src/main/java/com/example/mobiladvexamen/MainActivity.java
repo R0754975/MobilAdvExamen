@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -68,7 +69,11 @@ public class MainActivity extends AppCompatActivity implements RecipeAdapter.OnI
 
         findViewById(R.id.reset_filters).setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+                LinearLayoutManager layoutManager = (LinearLayoutManager) mRecyclerView.getLayoutManager();
+                layoutManager.scrollToPositionWithOffset(0, 0);
                 mRecipeList.clear();
+                mySpinner.setSelection(0);
+                mSearch.setText("");
                 searchRecipes(DEFAULT_QUERY);
             }
         });
